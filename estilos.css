@@ -1,0 +1,115 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos para o cabeçalho */
+#header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* Estilos para a barra lateral (sidebar) */
+#sidebar {
+    float: left;
+    width: 30%;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Estilos para o conteúdo principal */
+#main-content {
+    float: right;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos para seções */
+h1, h2 {
+    color: #003366;
+}
+
+ul {
+    list-style-type: square;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+/* Estilos para links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o rodapé */
+#footer {
+    clear: both;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Boas práticas: alinhamento de texto em parágrafos */
+p {
+    text-align: justify;
+}
+
+/* Exemplo de formatação de texto: negrito e itálico onde aplicável */
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
